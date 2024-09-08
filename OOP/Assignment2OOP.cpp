@@ -1,3 +1,9 @@
+/*
+Develop a program in C++ to create a database of student's information system containing the following information: Name, Roll number, Class, Division, Date of Birth, Blood group, contact address, Telephone number, Driving license no. and other.
+*
+Construct the database with suitable member functions. Make use of constructor, default constructor, copy constructor, destructor, static member functions, friend class, this pointer, inline code and dynamic memory allocation operators-new and delete as well as exception handling.
+
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -22,7 +28,6 @@ public:
 
     Student(string Name, int RollNum, int Class, string Div, string DOB, string BG, double tel, double DriLicen)
     {
-        // cout << "Default Constructor is called" << endl;
         this->name = Name;
         this->roll_number = RollNum;
         this->class_number = Class;
@@ -41,8 +46,7 @@ public:
 
 int main()
 {
-    // Student s, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10;
-    // Student arr[];
+    // Vector to store students
     vector<Student> students;
     int choice;
     while (true)
