@@ -4,8 +4,9 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
+namespace Ui
+{
+    class MainWindow;
 }
 QT_END_NAMESPACE
 
@@ -22,6 +23,7 @@ private slots:
     void DDA_Line(float x1, float y1, float x2, float y2);
     void CircleMaker(float x1, float y1, int radius);
     void DrawCircle(float xc, float yc, float x1, float y2);
+
 private:
     Ui::MainWindow *ui;
 };
