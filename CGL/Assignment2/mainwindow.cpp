@@ -38,7 +38,7 @@ void MainWindow::on_pushButton_clicked()
 {
     QMessageBox messageBox;
     if(
-       ui->plainTextEdit->toPlainText().isEmpty() ||
+       ui->plainTextEdit->toPlainText().isEmpty()   ||
        ui->plainTextEdit_2->toPlainText().isEmpty() ||
        ui->plainTextEdit_3->toPlainText().isEmpty() ||
        ui->plainTextEdit_4->toPlainText().isEmpty()
